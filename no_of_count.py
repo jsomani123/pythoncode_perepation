@@ -9,7 +9,8 @@ since 1996. Prior to working at Metaphor and founding Red Brick Systems, Ralph
 coinvented the Star workstation, the fi rst commercial product with windows, icons, 
 and a mouse, at Xerox’s Palo Alto Research Center (PARC). Ralph has a PhD in 
 electrical engineering from Stanford University """
-paragraph=paragraph.split(" ")
+
+paragraph=paragraph.lower().split(" ")
 for letter in paragraph:
     if letter =='the':
         count=count+1
